@@ -53,7 +53,7 @@ impl Sandbox for SshConnection {
     }
 
     fn title(&self) -> String {
-        String::from("Client SSH Rust")
+        String::from("Open Terminal")
     }
 
     fn update(&mut self, message: Message) {
@@ -169,7 +169,7 @@ impl Sandbox for SshConnection {
                 .spacing(20)
                 .max_width(400)
                 .align_items(Alignment::Center)
-                .push(Text::new("Client SSH Rust").size(24))
+                .push(Text::new("Open Terminal").size(24))
                 .push(host_input)
                 .push(port_input)
                 .push(username_input)
