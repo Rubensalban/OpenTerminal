@@ -1,0 +1,8 @@
+[package]
+name = "ssh_client_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ssh2 = "0.9.0"
+iced = "0.10.0"
