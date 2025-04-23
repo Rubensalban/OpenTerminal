@@ -16,7 +16,6 @@ SSH Client Rust est une application de bureau légère qui permet de se connecte
 
 ## Captures d'écran
 
-*(Ajoutez des captures d'écran de votre application ici)*
 
 ## Technologies utilisées
 
